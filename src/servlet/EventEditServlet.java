@@ -101,8 +101,8 @@ public class EventEditServlet extends HttpServlet {
 
 
 			//BordItemsインスタンスの生成
-			BordItems bordItems = new BordItems(itemId, preferredFlagSet,
-					userName, userPass, userRemark, userRegistDay);
+			BordItems bordItems = new BordItems(itemId, preferredFlagSet, userName,
+					userPass, userRemark, userRegistDay);
 
 
 			//参加・不参加・未定

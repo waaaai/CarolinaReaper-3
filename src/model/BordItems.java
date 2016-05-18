@@ -16,7 +16,7 @@ public class BordItems {
 
 
 	//----------Constructor----------
-	public BordItems(/*String itemId, ArrayList<Calendar> preferredDaySet,*/ ArrayList<Integer> preferredFlagSet,
+	public BordItems(String itemId, /*ArrayList<Calendar> preferredDaySet,*/ ArrayList<Integer> preferredFlagSet,
 			String userName, String userPass, String userRemark, Calendar userRegistDay) {
 		super();
 		this.itemId = String.valueOf(itemCounter);
